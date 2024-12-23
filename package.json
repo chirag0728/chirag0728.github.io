@@ -9,15 +9,28 @@
     "serve": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "keywords": ["portfolio", "vite", "vue", "web development"],
+  "keywords": [
+    "portfolio",
+    "vite",
+    "vue",
+    "cybersecurity",
+    "penetration testing",
+    "web development"
+  ],
   "author": "Chirag Dewan",
   "license": "MIT",
+  "homepage": "https://chirag0728.github.io/chirag-portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chirag0728/chirag-portfolio.git"
+  },
   "devDependencies": {
-    "vite": "^4.0.0",
     "@vitejs/plugin-vue": "^4.0.0",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "vite": "^4.0.0"
   },
   "dependencies": {
-    "vue": "^3.2.0"
+    "vue": "^3.2.0",
+    "vue-router": "^4.5.0"
   }
 }
