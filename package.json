@@ -1,6 +1,23 @@
 {
+  "name": "chirag-portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio website showcasing projects and experience",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": ["portfolio", "vite", "vue", "web development"],
+  "author": "Chirag Dewan",
+  "license": "MIT",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.0.5"
+    "vite": "^4.0.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "gh-pages": "^5.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.0"
   }
 }
